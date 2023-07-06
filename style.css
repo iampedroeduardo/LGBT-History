@@ -62,5 +62,8 @@ section{
     padding-right: 30px;
     display: flex;
     flex-direction: row;
-    gap: 15px;  
+    gap: 30px;  
+}
+.musicas{
+    font-size: 20px;
 }
