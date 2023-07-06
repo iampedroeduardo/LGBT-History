@@ -19,28 +19,28 @@
               </button>
               <div class="collapse navbar-collapse nav" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="#introducao">Introdução</a>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#introducao">Introdução</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Blocos
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item lover" href="#lover">Lover</a></li>
                       <li><a class="dropdown-item fearless" href="#fearless">Fearless</a></li>
-                      <li><a class="dropdown-item evermore" href="#evermore">Evermore</a></li>
-                      <li><a class="dropdown-item reputation" href="#reputation">Reputation</a></li>
+                      <li><a class="dropdown-item evermore" href="#evermore">evermore</a></li>
+                      <li><a class="dropdown-item reputation" href="#reputation">reputation</a></li>
                       <li><a class="dropdown-item speaknow" href="#speaknow">Speak Now</a></li>
                       <li><a class="dropdown-item red" href="#red">Red</a></li>
-                      <li><a class="dropdown-item folklore" href="#folklore">Folklore</a></li>
+                      <li><a class="dropdown-item folklore" href="#folklore">folklore</a></li>
                       <li><a class="dropdown-item a1989" href="#1989">1989</a></li>
                       <li><a class="dropdown-item" href="#surprise">Surprise Songs</a></li>
                       <li><a class="dropdown-item midnights" href="#midnights">Midnights</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#ingressos">Ingressos</a>
+                    <a class="nav-link active" href="#ingressos">Ingressos</a>
                   </li>
                 </ul>
               </div>
@@ -68,53 +68,175 @@
             <div class="texto">
                 <h1>Lover</h1>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Todos os shows da The Eras começam com um bloco do álbum Lover. Este álbum foi lançado em 2019 e teve uma turnê marcada para 2020, turnê essa que foi prejudicada pela pandemia de COVID-19 que fez com que ela não acontecesse. Por isso, esse álbum tem uma das maiores quantidades de músicas dentro do show com 6 músicas, sendo elas: 
                 </p>
+                <ul class="musicas">
+                    <li>Miss Americana & The Heartbreak Prince</li>
+                    <li>Cruel Summer</li>
+                    <li>The Man</li>
+                    <li>You Need To Calm Down</li>
+                    <li>Lover</li>
+                    <li>The Archer</li>
+                </ul>
             </div>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/lover1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/lover2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/lover3.png" class="d-block w-100" alt="...">
-                  </div>
+            <div id="lovercarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#lovercarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#lovercarrossel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#lovercarrossel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/lover1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/lover2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/lover3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#lovercarrossel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#lovercarrossel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
+
         </section>
         <section id="fearless" class="fearless">
+            <div id="fearlesscarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#fearlesscarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#fearlesscarrossel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#fearlesscarrossel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/fearless1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fearless2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/fearless3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#fearlesscarrossel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#fearlesscarrossel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="texto">
                 <h1>Fearless</h1>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Depois do bloco Lover, temos o bloco do segundo álbum de estúdio de Taylor Swift, Fearless. Lançado originalmente em 2008 e regravado em 2021, o álbum Fearless foi responsável por dar a Taylor seus quatro primeiros Grammys e também por fazer ela conhecida em todo seu país e no mundo com os singles "You Belong With Me" e "Love Story". As músicas do álbum cantadas nessa tour são:
                 </p>
+                <ul class="musicas">
+                    <li>Fearless</li>
+                    <li>You Belong With Me</li>
+                    <li>Love Story</li>
+                </ul>
             </div>
         </section>
         <section id="evermore" class="evermore">
             <div class="texto">
                 <h1>evermore</h1>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    evermore é o álbum que comanda o terceiro bloco da turnê. Este álbum foi lançado em 2020 e não teve como ser feita uma turnê para ele, pois o mundo ainda estava em estado de pandemia. Conhecido por ser um álbum "irmão" de folklore, ele também faz parte do gênero folk e tem influências do country e do pop. deste álbum, são cantadas as seguintes músicas:
                 </p>
+                <ul class="musicas">
+                    <li>'tis the damn season</li>
+                    <li>willow</li>
+                    <li>marjorie</li>
+                    <li>champagne problems</li>
+                    <li>tolerate it</li>
+                </ul>
+            </div>
+            <div id="evermorecarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#evermorecarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#evermorecarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#evermorecarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/evermore1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/evermore2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/evermore3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#evermorecarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#evermorecarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
         <section id="reputation" class="reputation">
+            <div id="reputationcarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#reputationcarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#reputationcarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#reputationcarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/reputation1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/reputation2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/reputation3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#reputationcarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reputationcarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="texto">
                 <h1>reputation</h1>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Depois do bloco do álbum evermore temos o do reputation. Esse álbum foi lançado no ano de 2017, após um período de afastamento da mídia feito pela cantora Taylor Swift. Afastamento esse provocado por seu cancelamento nas redes sociais, começado por Kanye West com a música "Famous". reputation teve a considerada maior tour pelos fãs, com uma grande estrutura e performances incríveis. Nesta tour, o álbum tem as seguintes faixas tocadas:
                 </p>
+                <ul class="musicas">
+                    <li>...Ready For It</li>
+                    <li>Delicate</li>
+                    <li>Don't Blame Me</li>
+                    <li>Look What You Made Me Do</li>
+                </ul>
             </div>
         </section>
         <section id="speaknow" class="speaknow">
@@ -124,8 +246,62 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
+            <div id="speaknowcarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#speaknowcarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#speaknowcarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#speaknowcarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/speaknow1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/speaknow2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/speaknow3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#speaknowcarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#speaknowcarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
         <section id="red" class="red">
+            <div id="redcarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#redcarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#redcarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#redcarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/red1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/red2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/red3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#redcarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#redcarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="texto">
                 <h1>Red</h1>
                 <p>
@@ -140,8 +316,62 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
+            <div id="folklorecarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#folklorecarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#folklorecarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#folklorecarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/folklore1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/folklore2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/folklore3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#folklorecarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#folklorecarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
         <section id="1989" class="a1989">
+            <div id="a1989carrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#a1989carrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#a1989carrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#a1989carrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/19891.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/19892.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/19893.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#a1989carrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#a1989carrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="texto">
                 <h1>1989</h1>
                 <p>
@@ -156,8 +386,62 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
+            <div id="surprisecarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#surprisecarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#surprisecarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#surprisecarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/surprise1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/surprise2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/surprise3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#surprisecarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#surprisecarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
         <section id="midnights" class="midnights">
+            <div id="midnightscarrossel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#midnightscarrossel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#midnightscarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#midnightscarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/midnights1.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/midnights2.png" class="d-block" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/midnights3.png" class="d-block" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#midnightscarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#midnightscarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="texto">
                 <h1>Midnights</h1>
                 <p>
