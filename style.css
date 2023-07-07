@@ -67,3 +67,12 @@ section{
 .musicas{
     font-size: 20px;
 }
+.albums{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.album{
+    width: 10%;
+}
