@@ -68,11 +68,28 @@ section{
     font-size: 20px;
 }
 .albums{
-    width: 100vw;
+    width: 98vw;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .album{
-    width: 10%;
+    width: 120px;
+    animation-name: album;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+@keyframes album{
+    0%{
+        margin-right: -120px;
+    }
+    100%{
+        margin-right: 0px;
+    }
 }
