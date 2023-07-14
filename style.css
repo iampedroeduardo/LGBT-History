@@ -63,6 +63,11 @@ section{
     display: flex;
     flex-direction: row;
     gap: 30px;  
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+section.introducao{
+    align-items: center;
 }
 .musicas{
     font-size: 20px;
@@ -75,7 +80,7 @@ section{
     justify-content: center;
 }
 .album{
-    width: 120px;
+    width: 9.8vw;
     animation-name: album;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -84,12 +89,27 @@ section{
 footer{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    text-align: center;
+}
+.poster{
+    height: 450px;
 }
 @keyframes album{
     0%{
-        margin-right: -120px;
+        margin-right: -9.8vw;
     }
     100%{
         margin-right: 0px;
+    }
+}
+@media (max-width:900px){
+    section{
+        flex-wrap: wrap;
+    }
+    .d-block,.carousel,.slide{
+        width: 80vw;
     }
 }
